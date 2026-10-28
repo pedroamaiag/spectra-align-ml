@@ -4,7 +4,7 @@ import numpy as np
 import rasterio
 
 
-data_dir = Path(__file__).resolve().parents[1] / "data/raw"
+data_dir = Path(__file__).resolve().parents[2] / "data/raw"
 
 
 def check_pair(l1c_path, l2a_path):

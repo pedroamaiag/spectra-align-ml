@@ -6,7 +6,7 @@ import torch
 from torch.utils.data import DataLoader, Dataset
 
 
-project_dir = Path(__file__).resolve().parents[1]
+project_dir = Path(__file__).resolve().parents[2]
 manifest_path = project_dir / "data/splits.json"
 
 

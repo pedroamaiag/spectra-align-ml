@@ -2,11 +2,11 @@ from pathlib import Path
 
 import torch
 
-from dataset import create_loader
-from model import ResidualCNN
+from src.data.dataset import create_loader
+from src.models.residual_cnn import ResidualCNN
 
 
-project_dir = Path(__file__).resolve().parents[1]
+project_dir = Path(__file__).resolve().parents[2]
 model_path = project_dir / "outputs/models/residual_cnn.pt"
 
 band_names = ("B2", "B3", "B4", "B8")

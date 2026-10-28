@@ -4,7 +4,7 @@ import numpy as np
 import rasterio
 
 
-project_dir = Path(__file__).resolve().parents[1]
+project_dir = Path(__file__).resolve().parents[2]
 raw_dir = project_dir / "data/raw"
 processed_dir = project_dir / "data/processed"
 

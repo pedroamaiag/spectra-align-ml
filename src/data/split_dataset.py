@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 
 
-project_dir = Path(__file__).resolve().parents[1]
+project_dir = Path(__file__).resolve().parents[2]
 data_dir = project_dir / "data/processed"
 output_path = project_dir / "data/splits.json"
 

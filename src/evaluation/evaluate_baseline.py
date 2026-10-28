@@ -1,6 +1,6 @@
 import torch
 
-from dataset import create_loader
+from src.data.dataset import create_loader
 
 
 band_names = ("B2", "B3", "B4", "B8")
