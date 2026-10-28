@@ -1,0 +1,62 @@
+{
+    "train": [
+        {
+            "region": "region_001",
+            "season": "rainy",
+            "path": "data/processed/region_001/rainy.npz",
+            "patches": 21
+        },
+        {
+            "region": "region_001",
+            "season": "dry",
+            "path": "data/processed/region_001/dry.npz",
+            "patches": 42
+        },
+        {
+            "region": "region_004",
+            "season": "dry",
+            "path": "data/processed/region_004/dry.npz",
+            "patches": 45
+        },
+        {
+            "region": "region_005",
+            "season": "rainy",
+            "path": "data/processed/region_005/rainy.npz",
+            "patches": 49
+        },
+        {
+            "region": "region_005",
+            "season": "dry",
+            "path": "data/processed/region_005/dry.npz",
+            "patches": 49
+        }
+    ],
+    "validation": [
+        {
+            "region": "region_002",
+            "season": "rainy",
+            "path": "data/processed/region_002/rainy.npz",
+            "patches": 49
+        },
+        {
+            "region": "region_002",
+            "season": "dry",
+            "path": "data/processed/region_002/dry.npz",
+            "patches": 49
+        }
+    ],
+    "test": [
+        {
+            "region": "region_003",
+            "season": "rainy",
+            "path": "data/processed/region_003/rainy.npz",
+            "patches": 26
+        },
+        {
+            "region": "region_003",
+            "season": "dry",
+            "path": "data/processed/region_003/dry.npz",
+            "patches": 29
+        }
+    ]
+}
